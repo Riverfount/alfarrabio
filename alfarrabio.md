@@ -28,3 +28,9 @@ https://www.debian.org/distrib/packages
 ```
 for i in `dpkg --get-selections | awk '{ print $1 }'`; do egrep -lRI "^Filename: .*/${i}_[^/]+.deb" /var/lib/apt/lists/ | grep -q 'sid' && echo $i; done
 ```
+
+## Após instalar o Docker incluir o usuário no grupo docker
+```
+sudo usermode -aG docker $USER
+```
+Obs.: Não esquecer de dar um logout e login para recarregar os grupos.
