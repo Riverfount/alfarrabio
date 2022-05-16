@@ -70,5 +70,5 @@ sudo chwon root:root slack.gpg
 Feito isso, basta enviar para o diretório: `/etc/apt/trusted.gpg.d/`, isso com o comando a seguir:
 
 ```
-sudo mv slack.gpg /etc/trusted.gpg.d/slack.gpg
+sudo mv slack.gpg /etc/apt/trusted.gpg.d/slack.gpg
 ```
