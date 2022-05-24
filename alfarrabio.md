@@ -31,9 +31,11 @@ for i in `dpkg --get-selections | awk '{ print $1 }'`; do egrep -lRI "^Filename:
 
 ## Após instalar o Docker incluir o usuário no grupo docker
 ```
-sudo usermode -aG docker $USER
+su -
+usermod -aG docker $USER
+exit
 ```
-Obs.: Não esquecer de dar um logout e login para recarregar os grupos.
+Obs.: Não esquecer de restartar a máquina para recarregar os grupos.
 
 
 ## Arrumando para não receber mensagem DEPRECATED na atualização dos pacotes
