@@ -2,6 +2,11 @@
 
 Todos os comandos abaixo foram testados no Debian Sid
 
+## Verificado quem depende de um determinado pacote:
+```
+apt rdepends <nome-do-pacote>
+```
+
 ## Como renomear a máquina do linux
 
 1. Editar os arquivos e mudar para o novo nome: /etc/hostname e /etc/hosts.
