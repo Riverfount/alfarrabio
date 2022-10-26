@@ -1,3 +1,9 @@
+# Dicas e truques no Pycharm
+
+## Removendo o nome do autor de alterações no código que é mostrado acima do bloco de código
+
+Para remover basta ir em: `Settings > Editor > Inlay Hints` e desmarcar a opção `Code vision
+
 # Dicas e truques de uso da linha de comando do GNU/Linux 
 
 Todos os comandos abaixo foram testados no Debian Sid
