@@ -4,6 +4,8 @@
 
 Para remover basta ir em: `Settings > Editor > Inlay Hints` e desmarcar a opção `Code vision
 
+---
+
 # Dicas e truques de uso da linha de comando do GNU/Linux 
 
 Todos os comandos abaixo foram testados no Debian Sid
