@@ -50,6 +50,9 @@ exit
 ```
 Obs.: Não esquecer de restartar a máquina para recarregar os grupos.
 
+## Mudando a diretório principal do Docker para evitar lotar a partição `/`:
+
+Seguir as instruções desse link: https://www.ibm.com/docs/en/z-logdata-analytics/5.1.0?topic=compose-relocating-docker-root-directory
 
 ## Arrumando para não receber mensagem DEPRECATED na atualização dos pacotes
 Após a instalação de um pacote que não esteja nos repositórios oficiais é possível que o mesmo tenha colocado a chave de autenticação no modo que está sendo depreciado pelo gerenciador de pacotes `apt`, para que não tenhamos sempre a mensagem de que está depreciado essa forma de usar a chave, vejamos como proceder.
