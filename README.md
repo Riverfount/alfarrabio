@@ -1,4 +1,4 @@
-# Dicas e truque no VIM
+# Dicas e truques no VIM
 ## Abrindo um novo arquivo splitando o atual para a direita
 ```
 :vsp new file_name.extension
