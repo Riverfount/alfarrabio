@@ -6,6 +6,15 @@
 4. Digite o caracter `#`, ele aparecerá somente na primeira linha da seleção
 5. Digite `Esc` e todas as demais linhas serão preenchidas com o mesmo caracter
 
+## Substituindo um padrão de texo por outro
+```
+:%s/padrao_subistituivel/padrao_subistituto  # Subistitui somente a primeira ocorrência do padrao_subistituivel
+```
+No caso de se querer subistituir o padrão no arquivo inteiro, inserir `/g` ao final da instrução, ficando assim:
+```
+:%s/padrao_subistituivel/padrao_subistituto/g
+```
+
 ## Abrindo um novo arquivo splitando o atual para a direita
 ```
 :vsp new file_name.extension
