@@ -1,12 +1,22 @@
 # Dicas e truques no VIM
+## Selecionando uma coluna específica e incluíndo, por exemplo, o caracter de comentário (no python)
+1. Digite `ctrl+v`
+2. Com as teclas de movimentação e/ou as setas selecione as linhas que desaja
+3. Digite `shift+i`
+4. Digite o caracter `#`, ele aparecerá somente na primeira linha da seleção
+5. Digite `Esc` e todas as demais linhas serão preenchidas com o mesmo caracter
+
 ## Abrindo um novo arquivo splitando o atual para a direita
 ```
 :vsp new file_name.extension
 ```
+
 ## Abrindo um arquivo existente splitando o atual para a direita
 ```
 :vsp file_name.extension
 ```
+
+---
 
 # Dicas e truques no Pycharm
 
@@ -29,7 +39,7 @@ apt rdepends <nome-do-pacote>
 
 1. Editar os arquivos e mudar para o novo nome: /etc/hostname e /etc/hosts.
 2. Executar: `hostname -F /etc/hostname`
-3. Fechar e abrir o terminal que já vai ver o hostname correto.
+3. Fechar e abrir o terminal e verás o hostname correto.
 
 ## Comparando arquivos
 
