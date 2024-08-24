@@ -1,3 +1,13 @@
+# Dicas e truque no VIM
+## Abrindo um novo arquivo splitando o atual para a direita
+```
+:vsp new file_name.extension
+```
+## Abrindo um arquivo existente splitando o atual para a direita
+```
+:vsp file_name.extension
+```
+
 # Dicas e truques no Pycharm
 
 ## Removendo o nome do autor de alterações no código que é mostrado acima do bloco de código
